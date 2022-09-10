@@ -1,0 +1,2113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- theme css -->
+    <link rel="stylesheet" href="assets/css/borhan.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font awesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+<!-- Mobile Menu section -->
+<section>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="mobile-header-menu-section">
+                <!-- Left Barger menu icon -->
+                <div class="bargerMenu">
+                    <i class="fa fa-bars"></i>  
+                </div>
+
+                <!-- Middle logo -->
+                <div class="mobile-header-logo">
+                    <a href="index.html"><img src="assets/images/main-logo.png" class="img-fluid" alt=""></a>
+                </div>
+
+                <!-- Right Menus -->
+                <div class="right-mobile-menu">
+                    <i class="fa fa-shopping-basket"></i>  &nbsp;<span class="badge badge-light">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Mobile Menu section -->
+
+<!-- Left fixed sidebar -->
+<section>
+    <div class="main-left-fixed-sidebar" id="LeftSidebar">
+        <div class="sidebar-logo-close-icon">
+            <div class="sidebar-logo-header">
+                <img src="assets/images/main-logo.png" alt="">
+            </div>
+            <div class="cross-icon">
+                <i class="fa fa-times" onclick="SidebarToggle()"></i>
+            </div>
+        </div>
+
+        <!-- Middle section -->
+
+        <!-- Profile picture and content area -->
+        <div class="sidebar-profile-box">
+            <div class="profile-pic">
+                <a href="profile.html"><img src="assets/images/others/happy-girl.jpg" alt=""></a>
+            </div>
+            <div class="sidebar-profile-content">
+                <h2>Md Borhan Uddin</h2>
+                <p>01851590081</p>
+                <p><a href="profile.html">Manage Accounts</a></p>
+            </div>
+        </div>
+
+        <!-- Menus -->
+        <div class="sidebar-middle-menus">
+            <ul>
+                <li><a href="#">Orders <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></li>
+                <li><a href="#">GiftCard <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">Campains <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">Follwing Shops <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">Shop <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">BDBabaShopping Express <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">Newsfeed <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">Career <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+                <li><a href="#">LogOut <span><i class="fa fa-caret-right" aria-hidden="true"></i></span></a></a></li>
+            </ul>
+        </div>
+
+        <div class="left-sidebar-footer">
+            <a href="#">About us</a> | <a href="#">Contact us</a> | <a href="#">Terms and conditions</a> |<a href="#">About us</a> | <a href="#">Contact us</a> | <a href="#">Terms and conditions</a>
+        </div>
+
+    </div>
+</section>
+<!-- Left fixed sidebar -->
+
+<!-- Right cart sidebar fixed -->
+<section>
+    <div class="main-cart-fixed-sidebar" id="CartSidebar">
+        
+        <!-- My cart and Cross icon -->
+        <div class="cartTopHeader">
+            <i class="fa fa-times" onclick="CartSidebarToggle()"></i>
+            <h5>My Cart</h5>
+        </div>
+
+        <!-- All Products list -->
+        <div class="main-all-product-in-cart">
+
+            <!-- Single products -->
+            <div class="single-product-cart">
+                <div class="inCart-image">
+                    <img src="assets/images/products/1.jpg" alt="">
+                </div>
+
+                <!-- middle content -->
+                <div class="inCart-middle-content">
+                    <h2>Nylon Regular Backpack - Red and Black</h2>
+                    <p>Price: $350</p>
+                    <p><i class="fa fa-minus" aria-hidden="true"></i> 1 <i class="fa fa-plus" aria-hidden="true"></i></p>
+                </div>
+
+                <!-- delete icon -->
+                <div class="inCart-delete">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- Single products -->
+            <div class="single-product-cart">
+                <div class="inCart-image">
+                    <img src="assets/images/products/1.jpg" alt="">
+                </div>
+
+                <!-- middle content -->
+                <div class="inCart-middle-content">
+                    <h2>Nylon Regular Backpack - Red and Black</h2>
+                    <p>Price: $350</p>
+                    <p><i class="fa fa-minus" aria-hidden="true"></i> 1 <i class="fa fa-plus" aria-hidden="true"></i></p>
+                </div>
+
+                <!-- delete icon -->
+                <div class="inCart-delete">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- Single products -->
+            <div class="single-product-cart">
+                <div class="inCart-image">
+                    <img src="assets/images/products/1.jpg" alt="">
+                </div>
+
+                <!-- middle content -->
+                <div class="inCart-middle-content">
+                    <h2>Nylon Regular Backpack - Red and Black</h2>
+                    <p>Price: $350</p>
+                    <p><i class="fa fa-minus" aria-hidden="true"></i> 1 <i class="fa fa-plus" aria-hidden="true"></i></p>
+                </div>
+
+                <!-- delete icon -->
+                <div class="inCart-delete">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer section -->
+        <div class="inCart-footer">
+
+            <!-- Subtotal -->
+            <div class="inCart-subtotal FLEX">
+                <p>Sub Total : </p>
+                <p> ৳ 530</p>
+            </div>
+
+            <!-- Shipping express -->
+            <div class="inCart-shippingAddress FLEX">
+                <p>Shipping (Express) : </p>
+                <p> ৳ 50</p>
+            </div>
+
+            <!-- total  -->
+            <div class="inCart-total FLEX">
+                <p><b>Total Shopping :</b></p>
+                <p><b> ৳ 630</b></p>
+            </div>
+
+            <a href="cart.html"><button class="btn btn-success w-100 my-2 checkoutBtn">Process to checkout</button></a>
+
+        </div>
+
+
+    </div>
+</section>
+<!-- Right cart sidebar fixed -->
+
+<header class="header-wrap">
+    <div class="header-top-wrap">
+        <div class="common-wrap">
+            <div class="header-top-inner flex">
+                <div class="header-classic-nav top-menu">
+                    <ul>
+                        <li><a href="login.html"><i class="fa fa-user-circle" aria-hidden="true"></i><span>Login</span> </a></li>
+                        <li><a href="registation.html"><i class="fa fa-pencil-square" aria-hidden="true"></i> <span>Register</span> </a></li>
+                    </ul>
+                </div>
+                <div class="top-menu desk">
+                    <ul>
+                        <li><a href="index.html" class="home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i>
+                            About Us</a></li>
+                        <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            Contact</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                            FAQ</a>
+                            <div class="header-top-dropdown-menu">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        Create</a></li>
+                                    <li><a href="#"><i class="fa fa-diamond" aria-hidden="true"></i>
+                                        Unlimited</a></li>
+                                    <li><a href="#"><i class="fa fa-venus-mars" aria-hidden="true"></i>
+                                        Menus</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-menu">
+                    <ul>
+                        <li><a href="#" class="home"><img src="assets/img/english.png" alt=""> English</a>
+                            <div class="header-top-dropdown-menu">
+                                <ul>
+                                    <li><a href="#"><img src="assets/img/english.png" alt="">
+                                        English</a></li>
+                                    <li><a href="#"><img src="assets/img/arbic.png" alt="">
+                                        Arabic</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i>
+                            US Dollar</a>
+                            <div class="header-top-dropdown-menu">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-eur" aria-hidden="true"></i>
+                                        Euro</a></li>
+                                    <li><a href="#"><i class="fa fa-gbp" aria-hidden="true"></i>
+                                        Pound Sterling</a></li>
+                                    <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i>
+                                        US Dollar</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-menu desk">
+                    <ul>
+                        <li><a href="category.html" class="home"><i class="fa fa-bars" aria-hidden="true"></i>  More Menus</a>
+                            <div class="header-top-dropdown-menu">
+                                <ul>
+                                    <li><a href="index.html#latest-product"> The Best Menu</a></li>
+                                    <li><a href="index.html#category-section"> Options You Will</a></li>
+                                    <li><a href="index.html#category-section">Ever Find</a></li>
+                                    <li><a href="index.html#category-section">In a Theme</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#"><i class="fa fa-truck" aria-hidden="true"></i>    Delivery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-header-wrap">
+        <div class="common-wrap">
+            <div class="main-header-inner flex">
+                <div class="main-logo">
+                    <a href="index.html"><img src="assets/images/main-logo.png" alt=""></a>
+                </div>
+                <div class="header-content-wrap flex">
+                    <div class="header-search-wrapper flex">
+                        <div class="header-search-wrapper-inner">
+                            <div class="header-search-dropdown">
+                                <span>All</span>
+                                <ul>
+                                    <li>All</li>
+                                    <li>Fashion</li>
+                                    <li>Bags</li>
+                                    <li>Health &amp; Beauty</li>
+                                    <li>Footwear</li>
+                                    <li>Home Decor</li>
+                                    <li>Electronics</li>
+                                    <li>Appliances</li>
+                                    <li>Baby &amp; Kids</li>
+                                    <li>Flowers</li>
+                                    <li>Food</li>
+                                    <li>Sports</li>
+                                </ul>
+                            </div>  
+                            <div class="header-search-input-wrap flex">
+                                <div class="header-search-input-row">
+                                    <input type="search" placeholder="Search here...">
+                                </div>
+                                <div class="header-search-input-row search-btn">
+                                    <input type="submit" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-classic-cart-wrapper flex">
+                        <div class="header-classic-nav">
+                            <ul>
+                                <li><a href="login.html"><i class="fa fa-user-circle" aria-hidden="true"></i><span>Login</span> </a></li>
+                                <li><a href="registation.html"><i class="fa fa-pencil-square" aria-hidden="true"></i> <span>Register</span> </a></li>
+                                <li><a href="category.html"><i class="fa fa-heart-o" aria-hidden="true"></i> <span>Wishlist</span> </a></li>
+                                <li><a href="category.html"><i class="fa fa-compress" aria-hidden="true"></i> <span>Compare </span> </a></li>
+                            </ul>
+                        </div>
+                        <div class="hamburger mobi">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="search-btn-icon mobi">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <a href="cart.html" class="cart-wrap flex">
+                            <span>0 item(s) - $0.00</span>
+                            <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-wrap">
+        <div class="menu-title mobi">
+            <span>Menu</span>
+            <div class="menu-close-btn">
+                <img src="assets/img/xmark-solid.svg" alt="">
+            </div>
+        </div>
+        <div class="common-wrap">
+            <div class="nav-inner flex">
+                <div class="main-nav">
+                    <ul>
+                        <li class="yellow-bg"><a href="category.html"><i class="fa fa-bars" aria-hidden="true"></i>All Departments <span>Sale</span></a>
+                        <div class="submenu-wrap all-departments-submenu">
+                            <ul>
+                                <li><a href="category.html"><i class="fa fa-bars" aria-hidden="true"></i>Shop by Category</a>
+                                    <div class="sub-submenu-wrap mega-menu-content-wrap" style=" background-image: url(assets/img/menu2-252x312.png.png);">
+                                        <div class="mega-menu-content-inner flex">
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">Fashion</a>
+                                                <ul>
+                                                    <li><a href="category.html">Accesories</a></li>
+                                                    <li><a href="category.html">Dresses</a></li>
+                                                    <li><a href="category.html">Pants</a></li>
+                                                    <li><a href="category.html">T-Shirts</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">Electronics</a>
+                                                <ul>
+                                                    <li><a href="category.html">Desktops</a></li>
+                                                    <li><a href="category.html">Laptops &amp; Notebooks</a></li>
+                                                    <li><a href="category.html">Components</a></li>
+                                                    <li><a href="category.html">Phones &amp; PDAs</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">Bags</a>
+                                                <ul>
+                                                    <li><a href="category.html">Backpacks</a></li>
+                                                    <li><a href="category.html">Clutches</a></li>
+                                                    <li><a href="category.html">Formal</a></li>
+                                                    <li><a href="category.html">Purses</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">Health &amp; Beauty</a>
+                                                <ul>
+                                                    <li><a href="category.html">Accessories</a></li>
+                                                    <li><a href="category.html">Body</a></li>
+                                                    <li><a href="category.html">Lipstick</a></li>
+                                                    <li><a href="category.html">Makeup</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">Footwear</a>
+                                                <ul>
+                                                    <li><a href="category.html">Flats</a></li>
+                                                    <li><a href="category.html">Flip Flops</a></li>
+                                                    <li><a href="category.html">Heels</a></li>
+                                                    <li><a href="category.html">Running</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">Food</a>
+                                                <ul>
+                                                    <li><a href="category.html">Breakfast</a></li>
+                                                    <li><a href="category.html">Dessert</a></li>
+                                                    <li><a href="category.html">Grill</a></li>
+                                                    <li><a href="category.html">Pasta</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="category.html"><i class="fa fa-apple" aria-hidden="true"></i>Shop by Brand</a>
+                                    <div class="sub-submenu-wrap mega-menu-content-wrap" style=" background-image: url(assets/img/menubg3-344x351.jpg.jfif);">
+                                        <div class="mega-menu-content-inner flex">
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">APPLE</a>
+                                                <ul>
+                                                    <li><a href="category.html">Apple Cinema 30"</a></li>
+                                                    <li><a href="category.html">iMac</a></li>
+                                                    <li><a href="category.html">iPhone</a></li>
+                                                    <li><a href="category.html">iPod Classic</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">AWESOME BRAND</a>
+                                                <ul>
+                                                    <li><a href="category.html">Bodycorn Dress</a></li>
+                                                    <li><a href="category.html">City Handbag</a></li>
+                                                    <li><a href="category.html">Computer Bag Casual Bookbag</a></li>
+                                                    <li><a href="category.html">Geometrical Purse</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">CHIC D'OR </a>
+                                                <ul>
+                                                    <li><a href="category.html">Black Lace Dress</a></li>
+                                                    <li><a href="category.html">Eau de Parfum</a></li>
+                                                    <li><a href="category.html">Large Fashion Tote Bag</a></li>
+                                                    <li><a href="category.html">Large Wallet</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">ERICKSSON</a>
+                                                <ul>
+                                                    <li><a href="category.html">Headphones</a></li>
+                                                    <li><a href="category.html">Lazy Armchair</a></li>
+                                                    <li><a href="category.html">Canvas Tote Bag</a></li>
+                                                    <li><a href="category.html">Flame Wireless Portable Speaker</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">MELISSA JOHNSON</a>
+                                                <ul>
+                                                    <li><a href="category.html">Bio Butter</a></li>
+                                                    <li><a href="category.html">Bronzer Brush</a></li>
+                                                    <li><a href="category.html">Fresh Ginger Perfume</a></li>
+                                                    <li><a href="category.html">Mascara Curved Brush</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                            <div class="mega-menu-content-item">
+                                                <a href="category.html">HIPSTER</a>
+                                                <ul>
+                                                    <li><a href="category.html">Breathable Running Sneakers</a></li>
+                                                    <li><a href="category.html"> Brown Suede Shoes</a></li>
+                                                    <li><a href="category.html">Cool Boots</a></li>
+                                                    <li><a href="category.html">Hiking Boots</a></li>
+                                                </ul>
+                                                <a href="category.html" class="view-more">See all products</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#"><i class="fa fa-percent" aria-hidden="true"></i>Special Deals <span class="menu-label">Sale</span></a>
+                                    <div class="sub-submenu-wrap mega-menu-content-wrap special-menu">
+                                        <div class="mega-menu-inner-items">
+                                        <div class="module-item module-item-1">
+                                            <a href="#">
+                                                <img src="assets/images/special/sale-240.jpg">
+                                                <div class="banner-caption"><span>See all specials <i class="fa fa-arrow-right" aria-hidden="true"></i></span></div>
+                                            </a>
+                                        </div>
+                                        <div class="mega-menu-content-inner module-products flex">
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/headphones.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Headphones</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/apple_cinema_30-250x250w.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/headphones.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/2-250x250.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/2-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/24-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/3-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/33-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i>Bestsellers</a>
+                                
+                                    <div class="sub-submenu-wrap mega-menu-content-wrap special-menu no-expand">
+                                        <div class="mega-menu-inner-items">
+                                        <div class="mega-menu-content-inner module-products flex">
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/headphones.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Headphones</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/apple_cinema_30-250x250w.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/headphones.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/2-250x250.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/2-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/24-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/3-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-layout">
+                                                <div class="special-product-thumb">
+                                                    <div class="buttons-wrapper">
+
+                                                        <div class="quickview-button">
+                                                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                            <a href="#" class="btn-view quickview-cart">Quickview</a>
+
+                                                        </div>  
+
+                                                        <div class="button-group">
+                                                            <div class=" button-item cart-group">
+                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-cart">Add to Cart</a>
+                                                            </div>
+                                                            <div class=" button-item wish-group">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>  
+                                                            <a href="#" class="btn-view btn-wishlist">Add to Wish List</span></a>
+                                                            </div>
+                                                            <div class=" button-item compare-group">
+                                                                <i class="fa fa-compress" aria-hidden="true"></i>
+                                                                <a href="#" class="btn-view btn-compare">Compare this Product</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  <a href="#" class="product-img ">
+                                                            <img src="assets/images/special/33-250x250.jpg.jpg">
+                                                   </a>
+                                                    <div class="caption">
+
+                                                        <a href="#" class="name-heading">
+                                                            <h5>Apple Cinema 30"</h5>
+                                                        </a>
+
+                                                        <div class="price">
+                                                            <div>
+                                                                <span class="price-new">$90.00</span> 
+                                                                <span class="price-old">$100.00</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="module-item module-item-1 ">
+                                            <div class="block-body expand-block">
+                                                <h3 class="block-title">CMS Blocks</h3>
+                                                 <div class="block-header">
+                                                    <img src="assets/images/special/ban4.jpg"></div>
+                                                    <div class="block-wrapper">
+                                                    <div class="block-content">
+                                                      <p>The mega menus use the page builder interface and this means you can add any layout module in your menus to build the desired layout in any rows and columns combination.</p>
+                                                     </div>
+                                                    <div class="block-footer"><a class="btn" href="">Shop Now</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li><a href="category.html"><i class="fa fa-star" aria-hidden="true"></i>Custom Links</a>
+                                    <div class="sub-submenu-wrap float-left custom-links-wrap">
+                                        <div class="float-left w-100 custom-links-list">
+                                            <div class="float-left custom-links-nav">
+                                                <div class="float-left w-100">
+                                                    <div class="float-left custom-nav-item">
+                                                        <h5 class="mb-3">Top Categories</h5>
+                                                        <ul class="float-left w-100">
+                                                            <li class="float-left w-100"><a href="category.html">Fashion</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Bags</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Health &amp; Beauty</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Footwear</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Home</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Electronics</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Food</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Baby &amp; Kids</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Flowers</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Appliances</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="float-left custom-nav-item">
+                                                        <h5 class="mb-3">Top Brands</h5>
+                                                        <ul class="float-left w-100">
+                                                            <li class="float-left w-100"><a href="category.html">Apple</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Awesome Brand</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Chic D'or</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Ericksson</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Fort Cane</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Hipster</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Melissa Johnson</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">NY Fashion</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Olivia Smith</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">NY Fashion</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Ericksson</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="float-left custom-nav-item">
+                                                        <h5 class="mb-3">Custom Links</h5>
+                                                        <ul class="float-left w-100">
+                                                            <li class="float-left w-100"><a href="category.html">Health &amp; Beauty</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Footwear</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Home</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Electronics</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Food</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Baby &amp; Kids</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Flowers</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Appliances</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Food</a></li>
+                                                            <li class="float-left w-100"><a href="category.html">Flowers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="float-left custom-nav-item custom-nav-item-big">
+                                                        <h5 class="mb-3">Icons Menus</h5>
+                                                        <div class="float-left w-100 custom-item-wrap">
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                            <div class="float-left custom-item">
+                                                                <i class="fa fa-television" aria-hidden="true"></i>
+                                                                <span class="links-text">Fashion</span> 
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="float-left w-100 custom-links">
+                                            <div class="float-left custom-heading">
+                                                <h5>Don't Miss:</h5>
+                                            </div>
+                                            <div class="float-left custom-link">
+                                                <ul class="float-left w-100">
+                                                    <li class="float-left w-auto"><a href="category.html">Create</a></li>
+                                                    <li class="float-left w-auto"><a href="category.html">Any Links</a></li>
+                                                    <li class="float-left w-auto"><a href="category.html">Vertical</a></li>
+                                                    <li class="float-left w-auto"><a href="category.html">Hrixontal</a></li>
+                                                    <li class="float-left w-auto"><a href="category.html">Fashion</a></li>
+                                                    <li class="float-left w-auto"><a href="category.html">Electornics</a></li>
+                                                    <li class="float-left w-auto"><a href="category.html">Custom Popups</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="category.html"><i class="fa fa-product-hunt" aria-hidden="true"></i>See All Products <span class="menu-label new">New</span></a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li><a href="category.html">Multilevel</a>
+                            <div class="submenu-wrap j-dropdown">
+                                <ul>
+                                    <li><a href="category.html">Accesories</a>
+                                        <div class="sub-submenu-wrap j-dropdown">
+                                            <ul>
+                                                <li><a href="category.html">Belts</a>
+                                                </li>
+                                                <li><a href="category.html">Hats</a></li>
+                                                <li><a href="category.html">Jewelry</a>
+                                                    <div class="sub-submenu-two-wrap j-dropdown">
+                                                        <ul>
+                                                            <li><a href="category.html">Bracelets</a>
+                                                            </li>
+                                                            <li><a href="category.html">Earrings</a></li>
+                                                            <li><a href="category.html">Necklaces</a></li>
+                                                            <li><a href="category.html">Rings</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="category.html">Scarves</a></li>
+                                                <li><a href="category.html">Sunglasses</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="category.html">Dresses</a>
+                                        <div class="sub-submenu-wrap j-dropdown">
+                                            <ul>
+                                                <li><a href="category.html">Casual</a>
+                                                </li>
+                                                <li><a href="category.html">Evening</a></li>
+                                                <li><a href="category.html">Occasion</a></li>
+                                                <li><a href="category.html">Skirt</a></li>
+                                                <li><a href="category.html">Summer</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="category.html">Pants</a>
+                                        <div class="sub-submenu-wrap j-dropdown">
+                                            <ul>
+                                                <li><a href="category.html">Formal</a>
+                                                </li>
+                                                <li><a href="category.html">Jeans</a></li>
+                                                <li><a href="category.html">Leggings</a></li>
+                                                <li><a href="category.html">Training</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="category.html">T-Shirts</a></li>
+                                    <li><a href="category.html">Tops</a>
+                                        <div class="sub-submenu-wrap j-dropdown">
+                                            <ul>
+                                                <li><a href="category.html">Jackets</a>
+                                                    <div class="sub-submenu-two-wrap j-dropdown">
+                                                        <ul>
+                                                            <li><a href="category.html">Blazers</a>
+                                                            </li>
+                                                            <li><a href="category.html">Coats</a></li>
+                                                            <li><a href="category.html">Leather</a></li>
+                                                            <li><a href="category.html">Suit</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="category.html">Shirts</a></li>
+                                                <li><a href="category.html">Sleeveless</a></li>
+                                                <li><a href="category.html">Summer</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="category.html">Mega Menu<span>New</span></a>
+                            <div class="submenu-wrap mega-menu-top-categories">
+                                <div class="mega-menu-top-categories-inner">
+                                    <div class="top-categories-menu-item">
+                                        <h3>Top Categories</h3>
+                                        <div class="mega-menu-top-categories-item">
+                                            <ul>
+                                                <li> <a href="category.html">Fashion</a></li>
+                                                <li> <a href="category.html">Bags</a></li>
+                                                <li> <a href="category.html">Health &amp; Beauty</a></li>
+                                                <li> <a href="category.html">Footwear</a><span class="menu-right-item">Sale</span></li>
+                                                <li> <a href="category.html">Home Decor</a></li>
+                                                <li> <a href="category.html">Electronics</a></li>
+                                                <li> <a href="category.html">Food</a></li>
+                                                <li> <a href="category.html">Baby &amp; Kids</a></li>
+                                                <li> <a href="category.html">Flowers</a></li>
+                                                <li> <a href="category.html">Appliances</a></li>
+                                                <li> <a href="category.html">Sports</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-top-categories-item">
+                                            <ul>
+                                                <li> <a href="category.html">Fashion</a></li>
+                                                <li> <a href="category.html">Bags</a><span class="menu-right-item blue-bg">Unlimited</span></li>
+                                                <li> <a href="category.html">Health &amp; Beauty</a></li>
+                                                <li> <a href="category.html">Footwear</a><span class="menu-right-item">Custom</span></li>
+                                                <li> <a href="category.html">Home Decor</a></li>
+                                                <li> <a href="category.html">Electronics</a></li>
+                                                <li> <a href="category.html">Food</a><span class="menu-right-item yellow-bg">Labels</span></li>
+                                                <li> <a href="category.html">Baby &amp; Kids</a></li>
+                                                <li> <a href="category.html">Flowers</a></li>
+                                                <li> <a href="category.html">Appliances</a></li>
+                                                <li> <a href="category.html">Sports</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-top-categories-item">
+                                            <ul>
+                                                <li> <a href="category.html">Fashion</a></li>
+                                                <li> <a href="category.html">Bags</a></li>
+                                                <li> <a href="category.html">Health &amp; Beauty</a></li>
+                                                <li> <a href="category.html">Footwear</a></li>
+                                                <li> <a href="category.html">Home Decor</a></li>
+                                                <li> <a href="category.html">Electronics</a></li>
+                                                <li> <a href="category.html">Food</a></li>
+                                                <li> <a href="category.html">Baby &amp; Kids</a></li>
+                                                <li> <a href="category.html">Flowers</a></li>
+                                                <li> <a href="category.html">Appliances</a></li>
+                                                <li> <a href="category.html">Sports</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-menu-top-categories-item">
+                                            <ul>
+                                                <li> <a href="category.html">Fashion</a></li>
+                                                <li> <a href="category.html">Bags</a></li>
+                                                <li> <a href="category.html">Health &amp; Beauty</a></li>
+                                                <li> <a href="category.html">Footwear</a></li>
+                                                <li> <a href="category.html">Home Decor</a></li>
+                                                <li> <a href="category.html">Electronics</a></li>
+                                                <li> <a href="category.html">Food</a></li>
+                                                <li> <a href="category.html">Baby &amp; Kids</a></li>
+                                                <li> <a href="category.html">Flowers</a></li>
+                                                <li> <a href="category.html">Appliances</a></li>
+                                                <li> <a href="category.html">Sports</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="top-categories-menu-thumb-item">
+                                        <a href="category.html" class="float-left w-100 shop-cta-thumb">
+                                            <img class="float-left w-100 h-100" src="assets/images/products/girl.webp" alt="">
+                                        </a>
+                                        <div class="shop-cta-content">
+                                            <span>Shop Fashion</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="category.html">Fullwidth</a>
+                            <div class="fullwidth-submenu-wrap fullwidth-wrap">
+                                <div class="common-wrap">
+                                    <div class="fullwidth-inner">
+                                        <div class="fullwidth-content-wrap flex">
+                                            <div class="fullwidth-content">
+                                                <a href="category.html">Fashion</a>
+                                                <div class="fullwidth-content-inner flex">
+                                                    <div class="fullwidth-content-thumb-wrap">
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-1">
+                                                            <figure>
+                                                                <img src="assets/img/demo09-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-2">
+                                                            <figure>
+                                                                <img src="assets/img/assorted-blurred-background-boutique-994523-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-3">
+                                                            <figure>
+                                                                <img src="assets/img/c-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-4">
+                                                            <figure>
+                                                                <img src="assets/img/t2-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fullwidth-content-trigger">
+                                                        <ul>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-1">Accesories</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-2">Dresses</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-3">Pants</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-4">T-Shirts</a></li>
+                                                        </ul>
+                                                        <a href="category.html">See all products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fullwidth-content">
+                                                <a href="category.html">Fashion</a>
+                                                <div class="fullwidth-content-inner flex">
+                                                    <div class="fullwidth-content-thumb-wrap">
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-5">
+                                                            <figure>
+                                                                <img src="assets/img/demo09-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-6">
+                                                            <figure>
+                                                                <img src="assets/img/assorted-blurred-background-boutique-994523-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-7">
+                                                            <figure>
+                                                                <img src="assets/img/c-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-8">
+                                                            <figure>
+                                                                <img src="assets/img/t2-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fullwidth-content-trigger">
+                                                        <ul>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-5">Accesories</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-6">Dresses</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-7">Pants</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-8">T-Shirts</a></li>
+                                                        </ul>
+                                                        <a href="#">See all products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fullwidth-content">
+                                                <a href="category.html">Fashion</a>
+                                                <div class="fullwidth-content-inner flex">
+                                                    <div class="fullwidth-content-thumb-wrap">
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-9">
+                                                            <figure>
+                                                                <img src="assets/img/demo09-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-10">
+                                                            <figure>
+                                                                <img src="assets/img/assorted-blurred-background-boutique-994523-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-11">
+                                                            <figure>
+                                                                <img src="assets/img/c-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-12">
+                                                            <figure>
+                                                                <img src="assets/img/t2-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fullwidth-content-trigger">
+                                                        <ul>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-9">Accesories</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-10">Dresses</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-11">Pants</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-12">T-Shirts</a></li>
+                                                        </ul>
+                                                        <a href="category.html">See all products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fullwidth-content">
+                                                <a href="category.html">Fashion</a>
+                                                <div class="fullwidth-content-inner flex">
+                                                    <div class="fullwidth-content-thumb-wrap">
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-13">
+                                                            <figure>
+                                                                <img src="assets/img/demo09-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-14">
+                                                            <figure>
+                                                                <img src="assets/img/assorted-blurred-background-boutique-994523-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-15">
+                                                            <figure>
+                                                                <img src="assets/img/c-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-16">
+                                                            <figure>
+                                                                <img src="assets/img/t2-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fullwidth-content-trigger">
+                                                        <ul>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-13">Accesories</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-14">Dresses</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-15">Pants</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-16">T-Shirts</a></li>
+                                                        </ul>
+                                                        <a href="category.html">See all products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fullwidth-content">
+                                                <a href="#">Fashion</a>
+                                                <div class="fullwidth-content-inner flex">
+                                                    <div class="fullwidth-content-thumb-wrap">
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-17">
+                                                            <figure>
+                                                                <img src="assets/img/demo09-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-18">
+                                                            <figure>
+                                                                <img src="assets/img/assorted-blurred-background-boutique-994523-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-19">
+                                                            <figure>
+                                                                <img src="assets/img/c-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-20">
+                                                            <figure>
+                                                                <img src="assets/img/t2-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fullwidth-content-trigger">
+                                                        <ul>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-17">Accesories</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-18">Dresses</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-19">Pants</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-20">T-Shirts</a></li>
+                                                        </ul>
+                                                        <a href="category.html">See all products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fullwidth-content">
+                                                <a href="#">Fashion</a>
+                                                <div class="fullwidth-content-inner flex">
+                                                    <div class="fullwidth-content-thumb-wrap">
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-21">
+                                                            <figure>
+                                                                <img src="assets/img/demo09-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <a href="#" class="fullwidth-content-thumb fullwidth-content-thumb-22">
+                                                            <figure>
+                                                                <img src="assets/img/assorted-blurred-background-boutique-994523-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </a>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-23">
+                                                            <figure>
+                                                                <img src="assets/img/c-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                        <div href="#" class="fullwidth-content-thumb fullwidth-content-thumb-24">
+                                                            <figure>
+                                                                <img src="assets/img/t2-150x150.jpg.jfif" alt="">
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fullwidth-content-trigger">
+                                                        <ul>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-21">Accesories</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-22">Dresses</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-23">Pants</a></li>
+                                                            <li><a href="category.html" rel=".fullwidth-content-thumb-24">T-Shirts</a></li>
+                                                        </ul>
+                                                        <a href="category.html">See all products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="fullwidth-tab-wrap">
+                                            <div class="fullwidth-tab-trigger">
+                                                <ul>
+                                                    <li><a href="#fullwidth-tab-item-1" class="active">Top Sellers</a></li>
+                                                    <li><a href="#fullwidth-tab-item-2">Special Deals</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="fullwidth-tab-item-wrap">
+                                                <div class="fullwidth-tab-item active-tab" id="fullwidth-tab-item-1">
+                                                    <div class="fullwidth-tab-slider-item-wrap">
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <span class="product-label"><b>Custom Labels</b></span>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="cart.html" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="#" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <span class="product-label"><b>Custom Labels</b></span>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="#" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="fullwidth-tab-item" id="fullwidth-tab-item-2">
+                                                    <div class="fullwidth-tab-slider-item-wrap">
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <span class="product-label"><b>Custom Labels</b></span>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="#" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="#" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <span class="product-label"><b>Custom Labels</b></span>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="#" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fullwidth-tab-slider-item">
+                                                            <div class="fullwidth-tab-slider-item-thumb">
+                                                                <figure>
+                                                                    <img src="assets/img/beoplay-h6-headphones-by-bang-olufsen-190x190.jpg.jfif" alt="">
+                                                                </figure>
+                                                                <span class="product-label"><b>Custom Labels</b></span>
+                                                                <div class="product-label-default">
+                                                                    <span>-70 %</span>
+                                                                    <span>Hot</span>
+                                                                </div>
+                                                                <div class="product-zoom">
+                                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>  
+                                                            <div class="fullwidth-tab-slider-item-content">
+                                                                <a href="#">Headphones</a>
+                                                                <span>$999.00 <del>$3,299.00</del></span>
+                                                                <div class="fullwidth-tab-buttons-wrapper">
+                                                                    <a href="#" class="cart">Add to Cart</a>
+                                                                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                                                    <a href="#"><i class="fa fa-compress" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-menu">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> 1.800.555.6789</a></li>
+                        <li class="yellow-bg"><a href="#"><i class="fa fa-comments" aria-hidden="true"></i>Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- Main Order page  -->
+<section class="order-section pt-175">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="main-order-left-side">
+                    <h2>Checkout Information</h2>
+                    <div class="main-order-box">
+                        
+                        <!-- Form -->
+                        <form>
+                            <div class="form-group">
+                              <label class="formLabel" for="exampleInputEmail1">Contact Number</label>
+                              <input type="email" class="form-control inputField" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter mobile number">
+                            </div>
+
+                            <div class="form-group">
+                              <label class="formLabel" for="exampleInputEmail1">Email Address</label>
+                              <input type="email" class="form-control inputField" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address">
+                            </div>
+
+                            <div class="form-group">
+                              <label class="formLabel" for="exampleInputPassword1">Address</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          </form>
+
+                          <div class="order-content">
+                              <ul>
+                                  <li>* Delivery will be made within 7 to 45 days, depending on product and campaign</li>
+                                  <li>* Delivery charge (40tk) will be added for orders from Unimart, Meenaclick,Khaas food,Khaleque&sons,Little india,Shwapno,Daily Bazar,Suha,Angelic,Shorong and Bengal Meat Express shops</li>
+                                  <li>* Price included VAT for VAT applicable products</li>
+                              </ul>
+                          </div>
+
+                          <div class="form-check mb-1">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I agree to the Terms & Conditions and Purchasing Policy of bdbabashopping.</label>
+                          </div>
+
+                          <div class="d-flex w-100 justify-content-between align-items-center mb-5">
+                              <button class="btn btn-danger w-50 mr-2 orderButton">Go Back</button>
+                              <button class="btn btn-success w-50 ml-2 orderButton BtnColor"><a href="payment.html" style="color: white">Confirmed Order</a></button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right sidebar -->
+            <div class="col-md-4">
+                <div class="cart-right-order-summery py-5">
+                    <h2>Order Summary</h2>
+
+                    <!-- Subtotal row -->
+                    <div class="cart-subtotal d-flex justify-content-between py-2">
+                        <span>Subtotal (2 items)</span>
+                        <span>৳ 74,997</span>
+                    </div>
+
+                    <!-- Shipping fee -->
+                    <div class="cart-shipping d-flex justify-content-between py-2">
+                        <span>Shipping fee</span>
+                        <span>$299</span>
+                    </div>
+
+                    <!-- Total Price -->
+                    <div class="cart-total-price d-flex justify-content-between py-2 mt-4">
+                        <span><b>Total Price</b></span>
+                        <span>$299</span>
+                    </div>
+
+                    <!-- Button -->
+                    <a href="payment.html"><input type="submit" value="Confirm Order" class="btn btn-success btn-block OrdercheckoutBtn"></a>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<!-- Main Order page  -->
+
+
+
+
+
+
+
+
+
+<!-- footer area-->
+<footer class="float-left w-100 main-footer-wrap">
+    <div class="float-left w-100">
+        <div class="main-footer-inner">
+            <div class="footer-about-wrap">
+                <div class="footer-about">
+                    <div class="footer-about-icon">
+                        <img src="assets/images/main-logo.png" alt="">
+                    </div>
+                    <div class="footer-about-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus doloremque voluptates.</p>
+                    </div>
+                </div>
+                <div class="footer-social-icon">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-menu-item">
+                <div class="footer-widget-wrap">
+                    <div class="footer-widget-item">
+                        <h6>Location</h6>
+                        <ul>
+                            <li><i class="fa fa-share-alt" aria-hidden="true"></i><a href="#">Hatirpul</a></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:4567890">Toll Free (123) 456-7890</a></li>
+                            <li><i class="fa fa-envelope-open" aria-hidden="true"></i><a href="mailto:mail@gmail.com">mail@gmail.com</a></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">mail@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget-item">
+                        <h6>My Account</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Custom Service</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget-item">
+                        <h6>Quick Links</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Custom Service</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget-item">
+                        <h6>About NavieaSoft</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Custom Service</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-widget-wrap footer-bank-brands">
+                    <span>Navieasoft eCommerce © 2020. All Rights Reserved</span>
+                    <div class="bank-brands">
+                        <ul>
+                            <li><a href="payment.html"><img src="assets/images/footer/payment-icon-set.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer area -->
+
+
+
+    <!-- jquery js -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- bootstrap popper js -->
+    <script src="assets/js/popper.js"></script>
+    <!-- theme bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- main js-->
+    <script src="assets/js/borhan.js"></script>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/headroom.js"></script>
+    <script src="assets/js/common-scripts.js"></script>
+</body>
+
+</html>
